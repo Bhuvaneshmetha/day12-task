@@ -72,9 +72,8 @@ section{
     background: #09e4e4 !important;
 }
 /***about***/
-#about{
 
-}
+
 #about h1{
      font-weight: 800;  
      font-size: 50px;
@@ -87,9 +86,6 @@ section{
     font-size: 50px;
     letter-spacing: 2px;
     font-weight: 700;
- }
- #products img{
-   
  }
  .card{
     border: none !important;
@@ -111,6 +107,44 @@ section{
 
  /***contact***/
 
-#contact{
-   background: #09e4e4;
+
+.box{
+    width: 80%;
+    margin-top: 10px;
+    background: #918b8b;
+    border-radius: 30px;
+    
+}
+#contact h1{
+    margin-top: 80px;
+    font-weight: 700;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   margin-right: 20px;
+          
+}
+#contact input{
+    margin-top: 15px;
+    border-radius: 10px;
+    text-size-adjust: 10px;
+}
+#contact textarea{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+ #contact .signin{
+    margin-top: 15px;
+   
+}
+footer{
+     width: 100%;
+     height: 30px;
+     background: rgba(0,0,0,.8);
+     margin-top: -30px;
+     text-align: center;
+     color: white;
+     padding: 3px;   
 }
