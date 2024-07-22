@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@media {
+   
 *{
     padding: 0;
     margin: 0;
@@ -65,11 +67,12 @@ section{
     width: 40%;
     height: 45px;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 25pxpx;
 
 }
 .signin{
     background: #09e4e4 !important;
+    border-radius: 25px;
 }
 /***about***/
 
@@ -137,6 +140,7 @@ form{
 }
  #contact .signin{
     margin-top: 15px;
+    margin-bottom: 20px;
    
 }
 footer{
@@ -147,4 +151,5 @@ footer{
      text-align: center;
      color: white;
      padding: 3px;   
+}
 }
